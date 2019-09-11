@@ -1,0 +1,26 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "Online Blog platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "online",
+    "video"
+  ],
+  "author": "Rishav Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.0",
+    "express-fileupload": "^1.1.5",
+    "mongoose": "^5.6.13",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
